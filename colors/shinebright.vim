@@ -1,12 +1,4 @@
 " Vim color file -- with 256 colour support!
-"
-" Author: Anthony Carapetis <anthony.carapetis@gmail.com>
-" Contributors: Lucas Tadeu <lucastadeuteixeira@gmail.com>
-"
-" Note: Based on github's syntax highlighting theme
-"       Used Brian Mock's darkspectrum as a starting point/template
-"       Thanks to Ryan Heath for an easy list of some of the colours:
-"       http://rpheath.com/posts/356-github-theme-for-syntax-gem
 
 set background=light
 
@@ -17,10 +9,10 @@ if version > 580
     endif
 endif
 
-let colors_name = "github"
+let colors_name = "shinebright"
 
 " {{{ General colors
-hi Normal   ctermfg=0   ctermbg=255  guifg=#000000   guibg=#F8F8FF
+hi Normal   ctermfg=0   ctermbg=015  guifg=#000000   guibg=#F8F8FF
 hi Cursor   ctermfg=239   ctermbg=15  guifg=#F8F8FF   guibg=#444454
 hi Visual   ctermfg=15   ctermbg=61  guifg=#FFFFFF   guibg=#3465a3
 hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#FFFFFF   guibg=#204a87
@@ -59,12 +51,12 @@ hi DiffDelete ctermfg=252 ctermbg=224   guifg=#DDCCCC guibg=#FFDDDD gui=none    
 hi Ignore   ctermfg=8 guifg=#808080
 hi Identifier   ctermfg=31 guifg=#0086B3
 hi PreProc  ctermfg=247 guifg=#A0A0A0 gui=bold cterm=bold
-hi Comment  ctermfg=246 guifg=#999988
+hi Comment  ctermfg=245 guifg=#999988
 hi Constant ctermfg=6 guifg=#177F80 gui=none cterm=none
-hi String   ctermfg=161 guifg=#AF0000
+hi String   ctermfg=124 guifg=#AF0000
 hi Function ctermfg=88 guifg=#990000 gui=bold cterm=bold
-hi Statement    ctermfg=0 guifg=#000000 gui=bold cterm=bold
-hi Type     ctermfg=60 guifg=#445588 gui=bold   cterm=bold
+hi Statement    ctermfg=232 guifg=#000000 gui=bold cterm=bold
+hi Type     ctermfg=24 guifg=#445588 gui=bold   cterm=bold
 hi Number   ctermfg=30 guifg=#1C9898
 hi Todo     ctermfg=15 ctermbg=88 guifg=#FFFFFF guibg=#990000 gui=bold cterm=bold
 hi Special  ctermfg=28 guifg=#159828 gui=bold   cterm=bold
